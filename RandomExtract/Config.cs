@@ -143,6 +143,7 @@ namespace RandomExtract
                 AllNameList.RemoveAt(i);
             }
             String path = System.AppDomain.CurrentDomain.BaseDirectory+@"NameList";
+            //MessageBox.Show(path);
             DirectoryInfo dir = new DirectoryInfo(path);
             FileInfo[] fileInfo = dir.GetFiles();
             foreach (FileInfo item in fileInfo)
@@ -163,7 +164,7 @@ namespace RandomExtract
             {
                 name.RemoveAt(i);
             }
-            string sFilePath = String.Format(@"NameList\{0}", NameList);//名单文件路径
+            string sFilePath = String.Format(System.AppDomain.CurrentDomain.BaseDirectory + @"NameList\{0}", NameList);//名单文件路径
             //// 判断学生名单是否存在
             if (!File.Exists(sFilePath))
             {

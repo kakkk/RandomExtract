@@ -261,7 +261,7 @@ namespace RandomExtract
             if (fdlg.ShowDialog() == DialogResult.OK)
             {
                 string sourceFile = System.IO.Path.GetFullPath(fdlg.FileName);
-                string destinationFile = String.Format(@"NameList\{0}", System.IO.Path.GetFileNameWithoutExtension(fdlg.FileName));
+                string destinationFile = System.AppDomain.CurrentDomain.BaseDirectory + @"NameList\"+System.IO.Path.GetFileNameWithoutExtension(fdlg.FileName);
                 bool isrewrite = true; // true=覆盖已存在的同名文件,false则反之
                 System.IO.File.Copy(sourceFile, destinationFile, isrewrite);
                 Config.GetAllNameList();
@@ -277,7 +277,7 @@ namespace RandomExtract
         //删除名单操作
         private void delete_list_Button_Click(object sender, EventArgs e)
         {
-            string delet_file_path = String.Format(@"NameList\{0}", comboBox1.Text);
+            string delet_file_path = System.AppDomain.CurrentDomain.BaseDirectory + @"NameList\"+ comboBox1.Text;
             comboBox1.Text = "";
             File.Delete(delet_file_path);
             Config.GetAllNameList();
