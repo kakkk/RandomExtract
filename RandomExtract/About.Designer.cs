@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.imageButton1 = new RandomExtract.ImageButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -41,10 +43,9 @@
             this.label7 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label8 = new System.Windows.Forms.Label();
-            this.imageButton1 = new RandomExtract.ImageButton();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageButton1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -68,6 +69,24 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "关于";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // imageButton1
+            // 
+            this.imageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.imageButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.imageButton1.DownImage = global::RandomExtract.Properties.Resources.关闭;
+            this.imageButton1.HoverImage = global::RandomExtract.Properties.Resources.关闭__悬停;
+            this.imageButton1.Location = new System.Drawing.Point(302, 12);
+            this.imageButton1.Name = "imageButton1";
+            this.imageButton1.NormalImage = global::RandomExtract.Properties.Resources.关闭;
+            this.imageButton1.Size = new System.Drawing.Size(24, 23);
+            this.imageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.imageButton1.TabIndex = 0;
+            this.imageButton1.TabStop = false;
+            this.imageButton1.Text = "imageButton1";
+            this.imageButton1.ToolTipText = null;
+            this.imageButton1.Click += new System.EventHandler(this.imageButton1_Click);
+            this.imageButton1.MouseEnter += new System.EventHandler(this.imageButton1_MouseEnter);
             // 
             // pictureBox1
             // 
@@ -187,24 +206,6 @@
             this.label8.Text = "Copyright ©  2018 By Kakkk";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // imageButton1
-            // 
-            this.imageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.imageButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.imageButton1.DownImage = global::RandomExtract.Properties.Resources.关闭;
-            this.imageButton1.HoverImage = global::RandomExtract.Properties.Resources.关闭__悬停;
-            this.imageButton1.Location = new System.Drawing.Point(302, 12);
-            this.imageButton1.Name = "imageButton1";
-            this.imageButton1.NormalImage = global::RandomExtract.Properties.Resources.关闭;
-            this.imageButton1.Size = new System.Drawing.Size(24, 23);
-            this.imageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.imageButton1.TabIndex = 0;
-            this.imageButton1.TabStop = false;
-            this.imageButton1.Text = "imageButton1";
-            this.imageButton1.ToolTipText = null;
-            this.imageButton1.Click += new System.EventHandler(this.imageButton1_Click);
-            this.imageButton1.MouseEnter += new System.EventHandler(this.imageButton1_MouseEnter);
-            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -223,13 +224,14 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "About";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
             this.Load += new System.EventHandler(this.About_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageButton1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
