@@ -80,9 +80,10 @@ namespace RandomExtract
         #region 启动
         private void Main_Load(object sender, EventArgs e)
         {
-            if (!Directory.Exists(@"NameList"))//判断名单路径是否存在
+            //MessageBox.Show(System.AppDomain.CurrentDomain.BaseDirectory+@"NameList");
+            if (!Directory.Exists(System.AppDomain.CurrentDomain.BaseDirectory+@"NameList"))//判断名单路径是否存在
             {
-                Directory.CreateDirectory(@"NameList");
+                Directory.CreateDirectory(System.AppDomain.CurrentDomain.BaseDirectory+@"NameList");
             }
             string info = "";
             Config.GetConfig();

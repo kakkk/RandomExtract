@@ -142,7 +142,7 @@ namespace RandomExtract
             {
                 AllNameList.RemoveAt(i);
             }
-            String path = @"NameList";
+            String path = System.AppDomain.CurrentDomain.BaseDirectory+@"NameList";
             DirectoryInfo dir = new DirectoryInfo(path);
             FileInfo[] fileInfo = dir.GetFiles();
             foreach (FileInfo item in fileInfo)
