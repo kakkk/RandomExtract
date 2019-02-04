@@ -228,11 +228,11 @@ namespace RandomExtract
             {
                 case "A1":
                 case "A2":
-                    info = string.Format("ver 1.0.0.1 ,{0},{1},{2}", Config.Mode, Config.MIN, Config.MAX);//右下角信息
+                    info = string.Format("ver {0} ,{1},{2},{3}", Config.Ver,Config.Mode, Config.MIN, Config.MAX);//右下角信息
                     break;
                 case "B1":
                 case "B2":
-                    info = string.Format("ver 1.0.0.1 ,{0},{1}", Config.Mode, Config.name.Count);
+                    info = string.Format("ver {0} ,{1},{2}",Config.Ver, Config.Mode, Config.name.Count);
                     break;
                 default:
                     info = "ERROR";

@@ -19,6 +19,7 @@ namespace RandomExtract
         public static List<string> name = new List<string>();//抽取名单
         public static List<string> AllNameList = new List<string>();//所有名单
         public static string NameList = "";//配置名单
+        public static string Ver = "1.1.0.1";
         #region 操作XML
         public static string ReadSetting(string key)
         {

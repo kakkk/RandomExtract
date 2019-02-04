@@ -106,7 +106,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(339, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Version：v1.0.0.1 ";
+            this.label2.Text = string.Format("Version：{0}", Config.Ver);
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
