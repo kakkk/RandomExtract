@@ -199,6 +199,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="img\彩蛋图片8.png" />
+    <None Include="img\彩蛋图片7.png" />
+    <None Include="img\彩蛋图片6.png" />
+    <None Include="img\彩蛋图片5.png" />
+    <None Include="img\彩蛋图片4.png" />
+    <None Include="img\彩蛋图片3.png" />
+    <None Include="img\彩蛋图片1.png" />
+    <None Include="img\彩蛋图片2.png" />
     <None Include="img\头像.png" />
     <None Include="img\关于_悬停.png" />
     <None Include="img\关于.png" />

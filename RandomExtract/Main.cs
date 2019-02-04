@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using System.Configuration;
 using System.IO;
 using System.Diagnostics;
+using System.Drawing;
+using System.Collections.Generic;
 
 namespace RandomExtract
 {
@@ -12,6 +14,7 @@ namespace RandomExtract
         int[] nameFlag = new int[1000];
         int numcount = 0;
         int namecount = 0;
+        int InfoClickCount = 0;
         public Main()
         {
             InitializeComponent();
@@ -216,6 +219,101 @@ namespace RandomExtract
                     break;
                 default:
                     break;
+            }
+        }
+        #endregion
+
+        #region 彩蛋
+        public List<Image> ImgList = new List<Image>();
+        public int ImageClickCount = 0;
+        public void EasterEgg()
+        {
+            //将图片载入List
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片1);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片2);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片3);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片4);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片5);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片6);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片7);
+            ImgList.Add(RandomExtract.Properties.Resources.彩蛋图片8);
+            LoadingPanel.Visible = true;
+            //假的进度条
+            string ProgressBar = "■";
+            for (int i = 0; i <= 15; i++)
+            {
+                ProgressBar = ProgressBar.Insert(0, "■");
+                Application.DoEvents();
+                System.Threading.Thread.Sleep(150);
+                ProgressBarLabel.Text = ProgressBar;
+            }
+            EasterEggPanel.Visible = true;
+
+        }
+        //彩蛋触发
+        private void info_label_Click(object sender, EventArgs e)
+        {
+            InfoClickCount++;
+            if (InfoClickCount >= 5)
+            {
+                InfoClickCount = 0;
+                EasterEgg();
+            }
+        }
+
+        //图片被点击
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            ImageClickCount++;
+            if (ImageClickCount >= 8)
+            {
+                Play();
+                ImageClickCount = 0;
+            }
+
+            pictureBox1.Image = ImgList[ImageClickCount];
+        }
+        //窗口震动
+        private void Play()
+        {
+            int leftWidth = this.Left; //指定窗体左边值
+            int topWidth = this.Top; //指定窗体上边值 
+
+
+            for (int i = 0; i < 20; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    this.Left = this.Left + 10;
+                }
+                else //否则 
+                {
+                    this.Left = this.Left - 10;
+                }
+                if (i % 2 == 0)
+                {
+                    this.Top = this.Top + 10;
+                }
+                else//否则 
+                {
+                    this.Top = this.Top - 10;
+                }
+
+
+                System.Threading.Thread.Sleep(30);//震动频率 
+            }
+
+
+            this.Left = leftWidth;//重设窗体初此左边值 
+            this.Top = topWidth; //重设窗体初此上边值 
+        }
+        //ESC键退出彩蛋
+        private void Main_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)27)
+            {
+                EasterEggPanel.Visible = false;
+                LoadingPanel.Visible = false;
             }
         }
         #endregion
