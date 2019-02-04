@@ -61,7 +61,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("方正卡通简体", 15.5F);
+            this.label1.Font = new System.Drawing.Font("站酷快乐体2016修订版", 15.5F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Location = new System.Drawing.Point(3, 12);
             this.label1.Name = "label1";
@@ -111,7 +111,7 @@
             // 
             // label3
             // 
-            this.label3.Font = new System.Drawing.Font("方正卡通简体", 13F);
+            this.label3.Font = new System.Drawing.Font("站酷快乐体2016修订版", 13F);
             this.label3.Location = new System.Drawing.Point(-4, 175);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(339, 20);

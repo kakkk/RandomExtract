@@ -94,7 +94,7 @@
             // label1
             // 
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label1.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.label1.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
@@ -142,7 +142,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.checkBox1.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.checkBox1.Location = new System.Drawing.Point(158, 66);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(116, 30);
@@ -156,7 +156,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.checkBox2.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.checkBox2.Location = new System.Drawing.Point(283, 66);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(116, 30);
@@ -216,7 +216,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.label2.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label2.Location = new System.Drawing.Point(30, 66);
             this.label2.Name = "label2";
@@ -228,7 +228,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.label3.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.label3.Location = new System.Drawing.Point(240, 177);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 26);
@@ -238,7 +238,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.label4.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.label4.Location = new System.Drawing.Point(30, 176);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(122, 26);
@@ -248,7 +248,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.label5.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.label5.Location = new System.Drawing.Point(30, 138);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(78, 26);
@@ -268,7 +268,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.label6.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.label6.Location = new System.Drawing.Point(30, 101);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(122, 26);
@@ -279,7 +279,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox3.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.checkBox3.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.checkBox3.Location = new System.Drawing.Point(159, 103);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(94, 30);
@@ -292,7 +292,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox4.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.checkBox4.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.checkBox4.Location = new System.Drawing.Point(283, 102);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(116, 30);
@@ -305,7 +305,7 @@
             // 
             this.setting_apply_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.setting_apply_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.setting_apply_button.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.setting_apply_button.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.setting_apply_button.ForeColor = System.Drawing.SystemColors.ControlText;
             this.setting_apply_button.Location = new System.Drawing.Point(35, 226);
             this.setting_apply_button.Name = "setting_apply_button";
@@ -319,7 +319,7 @@
             // 
             this.setting_cancel_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.setting_cancel_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.setting_cancel_button.Font = new System.Drawing.Font("方正卡通简体", 16F);
+            this.setting_cancel_button.Font = new System.Drawing.Font("站酷快乐体2016修订版", 16F);
             this.setting_cancel_button.Location = new System.Drawing.Point(245, 226);
             this.setting_cancel_button.Name = "setting_cancel_button";
             this.setting_cancel_button.Size = new System.Drawing.Size(134, 36);

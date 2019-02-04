@@ -47,7 +47,7 @@
             // 
             this.go_button.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.go_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.go_button.Font = new System.Drawing.Font("方正卡通简体", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.go_button.Font = new System.Drawing.Font("站酷快乐体2016修订版", 39.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.go_button.Location = new System.Drawing.Point(65, 214);
             this.go_button.Name = "go_button";
             this.go_button.Size = new System.Drawing.Size(317, 71);
@@ -58,7 +58,7 @@
             // 
             // main_lable
             // 
-            this.main_lable.Font = new System.Drawing.Font("方正卡通简体", 84.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.main_lable.Font = new System.Drawing.Font("站酷快乐体2016修订版", 84.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.main_lable.Location = new System.Drawing.Point(-6, 48);
             this.main_lable.Name = "main_lable";
             this.main_lable.Size = new System.Drawing.Size(463, 151);
@@ -83,7 +83,7 @@
             // 
             // title
             // 
-            this.title.Font = new System.Drawing.Font("方正卡通简体", 15.5F);
+            this.title.Font = new System.Drawing.Font("站酷快乐体2016修订版", 15.5F);
             this.title.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.title.Location = new System.Drawing.Point(3, 0);
             this.title.Name = "title";
