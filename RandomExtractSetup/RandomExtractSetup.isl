@@ -341,7 +341,7 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Component.exe</td><td>{999657DA-1A4A-45BD-A841-3BF1E30D532B}</td><td>INSTALLDIR</td><td>2</td><td/><td>File.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Component.exe</td><td>{E6B63BE0-2B0D-41E0-943E-F932ED192511}</td><td>INSTALLDIR</td><td>2</td><td/><td>File.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{45CA8484-EAB0-4FB5-AD08-2551F1CB3D69}</td><td>NAMELIST</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{2C19A61B-B036-4598-81F6-BCF2E58BA3D0}</td><td>NAMELIST</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{95B70C17-A3FA-4800-ACF3-576C452D0D22}</td><td>FontsFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
@@ -1898,9 +1898,9 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>File.exe</td><td>Component.exe</td><td>抽号点~1.EXE|抽号点名器.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\user\Desktop\RandomExtract\RandomExtract\bin\Release\app.publish\抽号点名器.exe</td><td>1</td><td/></row>
-		<row><td>File.ttf</td><td>ISX_DEFAULTCOMPONENT2</td><td>方正卡~1.TTF|方正卡通简体.ttf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\user\Desktop\RandomExtract\RandomExtract\Fonts\方正卡通简体.ttf</td><td>1</td><td/></row>
-		<row><td>File1</td><td>ISX_DEFAULTCOMPONENT1</td><td>示例名单</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\user\Desktop\RandomExtract\RandomExtract\bin\Release\NameList\示例名单</td><td>1</td><td/></row>
+		<row><td>File.exe</td><td>Component.exe</td><td>FB7F~1.EXE|抽号点名器.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\kakkk\Desktop\Projects\kakkk\RandomExtract\RandomExtract\bin\Release\app.publish\抽号点名器.exe</td><td>1</td><td/></row>
+		<row><td>File.ttf</td><td>ISX_DEFAULTCOMPONENT2</td><td>2016~1.TTF|站酷快乐体2016修订版.ttf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\kakkk\Desktop\Projects\kakkk\RandomExtract\RandomExtract\Fonts\站酷快乐体2016修订版.ttf</td><td>1</td><td/></row>
+		<row><td>File.txt</td><td>ISX_DEFAULTCOMPONENT</td><td>5652~1.TXT|示例名单.txt</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\kakkk\Desktop\Projects\kakkk\RandomExtract\RandomExtract\bin\Release\示例名单.txt</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2043,7 +2043,7 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Component.exe</td><td/><td/><td>_58F07B56_8B2E_4982_9687_0141C1DC18B6_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Component.exe</td><td/><td/><td>_88E2BB04_3FA6_4761_8800_60DCD69FC24E_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_4F56B3DC_2B7A_45E5_B31D_0B1737922903_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_CA96D2D7_5B05_4BE1_A90C_BB2F79DB57F0_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_9BB909DE_53BE_4C2E_AD5B_41CF6C8A954F_FILTER</td><td/><td/><td/><td/></row>
@@ -2604,7 +2604,7 @@
 		<col def="I2">Order</col>
 		<col def="I2">ISSetupLocation</col>
 		<col def="S255">ISReleaseFlags</col>
-		<row><td>_4F3EC060_8E21_4D23_8E6E_FF73B7ABF25F_</td><td>Microsoft .NET Framework 4.5 Web.prq</td><td/><td/><td/></row>
+		<row><td>_6B243F09_A62E_4567_87FE_589A1341CFB7_</td><td>Microsoft .NET Framework 4.5 Web.prq</td><td/><td/><td/></row>
 	</table>
 
 	<table name="ISSetupType">
@@ -3754,6 +3754,8 @@
 		<row><td>ID_STRING7</td><td>2052</td><td>抽号点~1|抽号点名器</td><td>0</td><td/><td>-341419192</td></row>
 		<row><td>ID_STRING8</td><td>1033</td><td>NEWFOL~1|newfolder1</td><td>0</td><td/><td>-341430584</td></row>
 		<row><td>ID_STRING8</td><td>2052</td><td>RANDOM~1|RandomExtract</td><td>0</td><td/><td>-341430584</td></row>
+		<row><td>ID_STRING9</td><td>1033</td><td>NEWSHO~1|NewShortcut1</td><td>0</td><td/><td>556226984</td></row>
+		<row><td>ID_STRING9</td><td>2052</td><td>A017~1|抽号点名器</td><td>0</td><td/><td>556243432</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>2052</td><td>系统将不安装此功能。</td><td>0</td><td/><td>-475657580</td></row>
 	</table>
 
@@ -3869,6 +3871,7 @@
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;VSSolutionFolder&gt;\RandomExtract\icon.ico</td><td>0</td></row>
 		<row><td>NewShortcut1_5F2BFB5463AB4661BC244621487DEBF9.exe</td><td/><td>C:\Users\user\Desktop\RandomExtract\RandomExtract\bin\Release\app.publish\抽号点名器.exe</td><td>0</td></row>
+		<row><td>NewShortcut1_FB4E2168991D46B1969F92FF3AE29534.exe</td><td/><td>C:\Users\kakkk\Desktop\Projects\kakkk\RandomExtract\RandomExtract\bin\Release\app.publish\抽号点名器.exe</td><td>0</td></row>
 		<row><td>NewShortcut2_B9DF0B8F3BB8441AB40B880136A9C896.exe</td><td/><td>C:\Users\user\Desktop\RandomExtract\RandomExtract\bin\Release\app.publish\抽号点名器.exe</td><td>0</td></row>
 	</table>
 
@@ -4353,6 +4356,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>LAUNCHPROGRAMCOMPCODE</td><td>{999657DA-1A4A-45BD-A841-3BF1E30D532B}</td><td/></row>
 		<row><td>LAUNCHPROGRAMFILEKEY</td><td>File.exe</td><td/></row>
 		<row><td>LAUNCHREADME</td><td>1</td><td/></row>
+		<row><td>MSIFASTINSTALL</td><td>2</td><td/></row>
 		<row><td>Manufacturer</td><td>##COMPANY_NAME##</td><td/></row>
 		<row><td>PIDKEY</td><td/><td/></row>
 		<row><td>PIDTemplate</td><td>12345&lt;###-%%%%%%%&gt;@@@@@</td><td/></row>
@@ -4382,7 +4386,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGRAMFILETOLAUNCHATEND</td><td>[INSTALLDIR]抽号点名器.exe</td><td/></row>
 		<row><td>ProductCode</td><td>{4FB00397-18BF-4E1F-88E4-EABC67FC47AA}</td><td/></row>
 		<row><td>ProductName</td><td>抽号点名器</td><td/></row>
-		<row><td>ProductVersion</td><td>1.0.0.1</td><td/></row>
+		<row><td>ProductVersion</td><td>1.1.0.1</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4459,7 +4463,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
-		<row><td>NewShortcut2</td><td>Component.exe</td><td/><td>newfolder1</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4545,8 +4548,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>NewShortcut1</td><td>DesktopFolder</td><td>##ID_STRING6##</td><td>Component.exe</td><td>[INSTALLDIR]抽号点名器.exe</td><td/><td/><td/><td>NewShortcut1_5F2BFB5463AB4661BC244621487DEBF9.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
-		<row><td>NewShortcut2</td><td>newfolder1</td><td>##ID_STRING7##</td><td>Component.exe</td><td>[INSTALLDIR]抽号点名器.exe</td><td/><td/><td/><td>NewShortcut2_B9DF0B8F3BB8441AB40B880136A9C896.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut1</td><td>DesktopFolder</td><td>##ID_STRING9##</td><td>Component.exe</td><td>[INSTALLDIR]抽号点名器.exe</td><td/><td/><td/><td>NewShortcut1_FB4E2168991D46B1969F92FF3AE29534.exe</td><td>1</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
